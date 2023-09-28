@@ -19,7 +19,7 @@ public:
 	{
 		m_size = 0;
 		//伪头节点
-		m_head = new SingleListNode();
+		m_head = new SingleListNode();//
 	}
 	void printLinkList()
 	{

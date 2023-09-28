@@ -8,7 +8,7 @@ public:
 	ListNode* removeElements(ListNode* head, int val) {
 		auto hHead = new ListNode(0);
 		hHead->next = head;
-		auto t = hHead;
+		auto t = hHead;//
 		while (t->next != nullptr)
 		{
 			if (t->next->val == val)
